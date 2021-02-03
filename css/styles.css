@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 :root {
@@ -73,11 +74,11 @@ header {
   margin-right: 50px;
 }
 
-.menu:last-child {
+.head-navigation {
   margin-right: 331px;
 }
 
-header .feedback {
+.feedback {
   display: flex;
   position: absolute;
   left: 1078px;
@@ -87,17 +88,17 @@ header .feedback {
   font-weight: 500;
 }
 
-.feedback li {
+.feedback li:first-child {
   margin-right: 50px;
 }
-
-ul > li,
-.feedback > li {
+.feedback li:last-child {
+  width: 133px;
+}
+ul > li {
   list-style: none;
 }
 
-ul a,
-.feedback a {
+ul a{
   display: block;
   text-decoration: none;
   color: var(--h-color);
@@ -254,7 +255,7 @@ ul a:hover, ul a:focus {
   margin-right: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -317,7 +318,7 @@ footer p {
   top: 111px;
   margin-bottom: 9px;
   left: 215px;
-  color: #fff;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -349,11 +350,11 @@ footer .footer-links {
   height: 1548px;
 }
 .services {
-width: 1170px;
-height: 1360px;
-margin: 0px 215px;
-padding-top: 94px;
-position: relative;
+  width: 1170px;
+  height: 1360px;
+  margin: 0px 215px;
+  padding-top: 94px;
+  position: relative;
 }
 .services h1 {
   font-style: normal;
@@ -375,21 +376,21 @@ position: relative;
 }
 .services-links li {
   background: #F5F4FA;
-border-radius: 4px;
-margin-right: 8px;
+  border-radius: 4px;
+  margin-right: 8px;
 }
 .services-links a {
   display: block;
   width: 100%;
   height: 100%;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--h-color);
-padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-color);
+  padding: 6px 22px;
 }
 .services-links li:hover {
   color: white;
@@ -401,8 +402,8 @@ padding: 6px 22px;
 }
 .examples {
   margin-top: 50px;
- display: flex;
- flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-examples:nth-child(2){
   margin-left: 30px;
@@ -419,7 +420,7 @@ padding: 6px 22px;
 .examples .work-examples {
   width: 370px;
   height: 404px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
   list-style: none;
   border: 1px solid #EEEEEE;
   background-color: white;
@@ -430,24 +431,24 @@ padding: 6px 22px;
   display: block;
 }
 .work-examples h2 {
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;
-color: var(--h-color);
-letter-spacing: 0.06em;
-text-align: left;
-margin-top: 20px;
-margin-left: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--h-color);
+  letter-spacing: 0.06em;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 24px;
 }
 .work-examples p {
-margin-left: 24px;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-color: var(--p-color);
-text-align: left;
-letter-spacing: 0.03em;
-margin-top: 4px;
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--p-color);
+  text-align: left;
+  letter-spacing: 0.03em;
+  margin-top: 4px;
 }
