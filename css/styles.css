@@ -129,6 +129,7 @@ ul a{
   display: block;
   text-decoration: none;
   font-weight: 500;
+  outline-color: var(--hover-color);
 }
 
 ul a:hover, ul a:focus {
