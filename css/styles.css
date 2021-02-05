@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -20,6 +21,12 @@ body {
   width: 1600px;
   background: var(--body-background);
   margin: 0 auto;
+}
+
+.limiter{
+margin-left: 215px;
+margin-right: 215px;
+position: relative;
 }
 
 .visually-hidden {
@@ -50,7 +57,6 @@ header {
 }
 
 .logotype {
-  margin-left: 215px;
   display: inline-block;
   margin-top: 24px;
   text-decoration: none;
@@ -76,7 +82,7 @@ header {
 .menu {
   display: flex;
   position: absolute;
-  left: 453px;
+  left: 238px;
   top: 32px;
 }
 
@@ -98,8 +104,8 @@ header {
 .feedback {
   display: flex;
   position: absolute;
-  left: 1078px;
   top: 32px;
+  left: 863px;
 }
 
 .feedback a {
@@ -143,7 +149,7 @@ ul a:hover, ul a:focus {
   position: absolute;
   width: 696px;
   height: 120px;
-  left: 452px;
+  left: 237px;
   top: 280px;
   font-style: normal;
   font-weight: 900;
@@ -161,7 +167,7 @@ ul a:hover, ul a:focus {
   margin-top: 0px;
   width: 200px;
   height: 50px;
-  left: 700px;
+  left: 485px;
   top: 430px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -177,7 +183,7 @@ ul a:hover, ul a:focus {
 }
 
 .main-inf {
-  margin: 94px 215px;
+  margin: 94px 0px;
   position: relative;
 }
 
@@ -215,7 +221,7 @@ ul a:hover, ul a:focus {
 }
 
 .t-photo {
-  margin: 0 0 50px 612px;
+  margin: 0 0 50px 397px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -226,12 +232,12 @@ ul a:hover, ul a:focus {
   height: 42px;
   color: var(--h-color);
 }
-
+.doing{
+  padding-bottom: 134px;
+}
 .doing ul {
   display: flex;
-  margin-left: 215px;
-  margin-bottom: 94px;
-}
+  }
 
 .doing ul li {
   list-style: none;
@@ -259,7 +265,7 @@ ul a:hover, ul a:focus {
 .our-team {
   display: flex;
   flex-direction: row;
-  margin: 50px 215px 94px 215px;
+  margin: 50px 0px 94px 0px;
 }
 
 .team-photos {
@@ -315,7 +321,7 @@ footer {
   height: 31px;
   top: 60px;
   margin-bottom: 20px;
-  left: 215px;
+  left: 0px;
 }
 
 .logo span {
@@ -332,7 +338,7 @@ footer p {
   position: absolute;
   top: 111px;
   margin-bottom: 9px;
-  left: 215px;
+  left: 0px;
   color: var(--common-color);
   font-style: normal;
   font-weight: normal;
@@ -344,7 +350,7 @@ footer p {
 footer .footer-links {
   position: absolute;
   top: 141px;
-  left: 215px;
+  left: 0px;
 }
 
 .footer-links li {
@@ -368,9 +374,8 @@ footer .footer-links {
 }
 
 .services {
-  width: 1170px;
-  height: 1360px;
-  margin: 0px 215px;
+  width: 100%;
+  margin: 0px auto;
   padding-top: 94px;
   position: relative;
 }
